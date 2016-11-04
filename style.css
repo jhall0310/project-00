@@ -1,0 +1,22 @@
+.container-fluid {
+  width: 100%;
+  
+}
+
+
+.player1 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  margin-top: 50px;
+
+}
+
+.player2 {
+
+height: 100px;
+width: 100px;
+background-color: blue;
+margin-top: 50px;
+
+}
