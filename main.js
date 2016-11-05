@@ -1,5 +1,11 @@
 console.log('linked!');
 
+$('button').click(function() {
+      location.reload();
+      console.log('button clicked');
+  });
+
+
 $(window).keypress(function(e){
     if(e.keyCode === 108) {
         $('.player1').css({'margin-left': '+=100'});
@@ -8,15 +14,12 @@ $(window).keypress(function(e){
         $('.player2').css({'margin-left': '+=100'});
         checkWinner();
     }
+
 });
 
 function checkWinner(){
     if ($('.player1').css('margin-left')==='1400px') {
-        alert('red wins!');
+        alert('Jean wins!');
     } else if ($('.player2').css('margin-left')==='1400px')
-    alert('green wins!');
+    alert('Justin wins!');
 }
-
-$('.btn-reset').click(function() {
-      location.refresh();
-  });
