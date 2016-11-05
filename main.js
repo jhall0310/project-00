@@ -16,3 +16,7 @@ function checkWinner(){
     } else if ($('.player2').css('margin-left')==='1400px')
     alert('green wins!');
 }
+
+$('.btn-reset').click(function() {
+      location.refresh();
+  });

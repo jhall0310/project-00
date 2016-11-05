@@ -1,5 +1,6 @@
 body {
   position: relative;
+  background-color: #73961B;
 }
 
 .container-fluid {
@@ -26,6 +27,8 @@ body {
   position: absolute;
   left: 1%;
   border-radius: 5pt;
+  background-image: url('http://i.imgur.com/5t1ZoLC.jpg');
+  background-size: cover;
 }
 
 .player2 {
@@ -37,6 +40,7 @@ margin-top: 175px;
 position: absolute;
 left: 1%;
 border-radius: 5pt;
+background-image: url('http://i.imgur.com/ZAwC6Z1.jpg');
 
 }
 
