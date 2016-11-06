@@ -16,6 +16,7 @@ body {
   border: 1px solid black;
   background-color: #5E686B;
   border-radius: 8pt;
+  margin-top: 20px;
 
 }
 
@@ -46,4 +47,21 @@ background-image: url('http://i.imgur.com/ZAwC6Z1.jpg');
 
 button {
   margin-top: 30px;
+  font-family: arial;
+  font-size: 50pt;
+  background-color: white;
+  text-decoration: bold;
+  padding: 10px;
+  border-radius: 10pt;
+  border: 5px solid black;
+  text-align: center;
+
+
+}
+
+.reset {
+width: 250px;
+height: 150px;
+margin-left: auto;
+margin-right: auto;
 }
