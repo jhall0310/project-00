@@ -1,6 +1,7 @@
 body {
   position: relative;
   background-color: #73961B;
+  float: right;
 }
 
 .container-fluid {
@@ -11,7 +12,7 @@ body {
 
 #track {
   height: 400px;
-  width: 1500px;
+  width: 1510px;
   position: relative;
   border: 10px solid white;
   background-color: #5E686B;
@@ -30,6 +31,7 @@ body {
   border-radius: 5pt;
   background-image: url('http://i.imgur.com/5t1ZoLC.jpg');
   background-size: cover;
+  border: 10px solid #F6623D;
 }
 
 .player2 {
@@ -42,6 +44,7 @@ position: absolute;
 left: 1%;
 border-radius: 5pt;
 background-image: url('http://i.imgur.com/ZAwC6Z1.jpg');
+border: 10px solid #F214A0;
 
 }
 
@@ -55,7 +58,7 @@ button {
   border-radius: 10pt;
   border: 5px solid black;
   text-align: center;
-
+  border: 10px solid #144FF2;
 
 }
 

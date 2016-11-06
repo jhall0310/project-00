@@ -32,7 +32,7 @@ function checkWinner2(){
       $('.container-fluid').append('<img  src="http://s3.amazonaws.com/hiphopdx-production/2013/07/12-2chainz.jpg" />');
         alert('Justin wins!');
 
-        $('body').css('background-color', '#BBF97E');
+        $('body').css('background-color', '#3DF644');
 
     }
 }
@@ -41,5 +41,17 @@ $('button').click(function() {
       location.reload();
       console.log('button clicked');
   });
+
+  $('button').hover(function() {
+  $( 'button' ).blur();
+
+});
+
+function trackZoom() {
+    $('player1').mouseover("scale",{
+      percent: "80%"
+    },500);
+
+}
 
 })
