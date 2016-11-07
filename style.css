@@ -1,7 +1,9 @@
 body {
   position: relative;
-  background-color: #73961B;
+  background-color: #E3E3E3;
   float: right;
+  background-image: url('http://i.imgur.com/uRtxSFU.jpg');
+  background-size: cover;
 }
 
 .container-fluid {
@@ -31,7 +33,7 @@ body {
   border-radius: 5pt;
   background-image: url('http://i.imgur.com/5t1ZoLC.jpg');
   background-size: cover;
-  border: 10px solid #F6623D;
+  border: 10px solid #F62121;
 }
 
 .player2 {
@@ -44,22 +46,21 @@ position: absolute;
 left: 1%;
 border-radius: 5pt;
 background-image: url('http://i.imgur.com/ZAwC6Z1.jpg');
-border: 10px solid #F214A0;
+border: 10px solid black;
 
 }
 
 button {
   margin-top: 30px;
   font-family: arial;
-  font-size: 50pt;
-  background-color: white;
+  font-size: 25pt;
+  background-color: #323131;
   text-decoration: bold;
   padding: 10px;
-  border-radius: 10pt;
-  border: 5px solid black;
   text-align: center;
-  border: 10px solid #144FF2;
-
+  color: white;
+  border: 2px solid #323131;
+  border-radius: 25pt;
 }
 
 .reset {
@@ -74,4 +75,16 @@ margin-right: auto;
   width: 1500px;
   border: 10px dashed white;
   margin-top: 175px;
+}
+
+.header.text-center {
+
+height: 120px;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+background-color: #323131;
+color: white;
+border-radius: 20pt;
+
 }
