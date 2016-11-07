@@ -32,6 +32,7 @@ function checkWinner2(){
       $('.container-fluid').append('<img  src="http://s3.amazonaws.com/hiphopdx-production/2013/07/12-2chainz.jpg" />');
         alert('Justin wins!');
 
+
         $('body').css('background-color', '#3DF644');
 
     }
@@ -53,5 +54,10 @@ function trackZoom() {
     },500);
 
 }
+
+
+
+
+
 
 })
