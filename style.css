@@ -17,7 +17,11 @@ body {
   width: 1510px;
   position: relative;
   border: 10px solid white;
-  background-color: #5E686B;
+  background-image:
+    linear-gradient(
+      to right,
+      #2D2E2B, #565755
+    );
   border-radius: 8pt;
   margin-top: 20px;
 
