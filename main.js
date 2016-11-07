@@ -19,7 +19,8 @@ $(window).keypress(function(e){
 function checkWinner1(){
     if ($('.player1').css('margin-left')==='1400px') {
       $('.container-fluid').append('<img  src="http://www.dailyhaha.com/_pics/super_ugly_monkey.jpg" />');
-      $('h1').css('color', 'white');
+      $('.header.text-center').css('color', '#EEFE5D');
+      $('h1').append(' JEAN IS CHAMPION!!!!!!');
         alert('Jean wins!');
 
         $('body').css('background-color', '#5122EA');
@@ -30,6 +31,8 @@ function checkWinner1(){
 function checkWinner2(){
     if ($('.player2').css('margin-left')==='1400px') {
       $('.container-fluid').append('<img  src="http://s3.amazonaws.com/hiphopdx-production/2013/07/12-2chainz.jpg" />');
+      $('.header.text-center').css('color', '#2FFE58');
+      $('h1').append(' JUSTIN IS CHAMPION!!!!!!');
         alert('Justin wins!');
 
 
